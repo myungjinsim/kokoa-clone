@@ -26,13 +26,87 @@
 
     <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="#"><i class="far fa-comment fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+            <li class="nav__btn">
+              <a class="nav__link" href="friends.html">\
+                <i class="fas fa-user fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav__btn">
+              <a class="nav__link" href="#">
+                <span class="nav__notification">1</span>
+                <i class="far fa-comment fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav__btn">
+              <a class="nav__link" href="#">
+                <i class="fas fa-search fa-2x"></i>
+              </a>
+            </li>
+            <li class="nav__btn">
+              <a class="nav__link" href="#">
+                <div class="nav__notification__ellipsis"></div>
+                <i class="fas fa-ellipsis-h fa-2x"></i>
+              </a>
+            </li>
         </ul>
     </nav>
    
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-sm"></i></span>
+        <span><i class="fas fa-music fa-sm"></i></span>
+        <span><i class="fas fa-cog fa-sm"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i>
+      Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s320x320/83107846_622193685248854_5561877580535037952_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=fFQk1MxD6uYAX-qKC1j&tp=1&oh=ea3ea92afef5c3f962ee98aeaff02d40&oe=602C5198"
+            class="user-component__avatar user-component__avatar--xl"/>
+          <div class="user-component__text">
+          <h4 class="user-component__title">Myungjin Sim</h4>
+          <!--<h6 class="user-component__subtitle"> this text whatever</h6> THIS TEXT WILL BE USED IN THE NEXT PAGE -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="friends-screen_channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s320x320/83107846_622193685248854_5561877580535037952_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=fFQk1MxD6uYAX-qKC1j&tp=1&oh=ea3ea92afef5c3f962ee98aeaff02d40&oe=602C5198"
+              class="user-component__avatar user-component__avatar--sm"/>
+            <div class="user-component__text">
+            <h4 class="user-component__title">Channel</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+
+    </main>
+
+
+
+
+
     <script
       src="https://kit.fontawesome.com/4cc98a6277.js"
       crossorigin="anonymous"
