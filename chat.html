@@ -27,7 +27,7 @@
    
     <header class="alt-header">
       <div class="alt-header__column">
-        <a href="more.html">
+        <a href="chats.html">
             <i class="fas fa-angle-left fa-2x"></i>
         </a>
       </div>
@@ -40,11 +40,45 @@
       </div>
     </header>
 
-    <main class="main-screen">
-      
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+          Tuesday, June 30, 2020 
+      </div>
+
+      <div class="message-row">
+          <img src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s320x320/83107846_622193685248854_5561877580535037952_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=fFQk1MxD6uYAX-qKC1j&tp=1&oh=a632db0bb2c83eafff141d3306f1f94f&oe=60304618">
+          <div class="message-row__content">
+              <span class="message__author">Myungjin Sim</span>
+              <div class="message__info">
+                  <span class="message__bubble">Hi!</span>
+                  <span class="message__time">21:47</span>
+              </div>
+          </div>
+      </div>
+
+      <div class="message-row message-row--own">
+            <div class="message__info">
+                <span class="message__bubble">Nice to meet you!</span>
+                <span class="message__time">21:47</span>
+            </div>
+        </div>
+    </div>
 
 
     </main>
+
+    <form class="reply">
+        <div class="reply_column">
+            <i class="far fa-plus-square"></i>
+        </div> 
+        <div class="reply_column">
+            <input type="text" placeholder="Write a message..."/>
+            <i class="far fa-smile-wink"></i>
+            <button>
+                <i class="far fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
         
 
     <script
